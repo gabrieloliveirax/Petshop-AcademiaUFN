@@ -1,6 +1,7 @@
 import java.util.List;
 
 abstract class Servico {
+
     public abstract String descricao();
     public abstract double preco();
 
@@ -11,4 +12,5 @@ abstract class Servico {
             System.out.println("Preço: "+servico.preco());
         }
     }
+
 }

@@ -1,5 +1,6 @@
 abstract class Animal {
-        private String nome;
+
+        private String nome; //Estas são características dos objetos da classe Animal
         private String especie;
         private	String raca;
         private String dataDeNascimento;
@@ -45,11 +46,12 @@ abstract class Animal {
             this.proprietario = proprietario;
         }
 
-    public Animal(String nome, String especie, String raca, String dataDeNascimento, String proprietario) {
+        public Animal(String nome, String especie, String raca, String dataDeNascimento, String proprietario) {
         this.nome = nome;
         this.especie = especie;
         this.raca = raca;
         this.dataDeNascimento = dataDeNascimento;
         this.proprietario = proprietario;
-    }
+       }
+
 }

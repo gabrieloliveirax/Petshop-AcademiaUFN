@@ -1,7 +1,7 @@
-import java.awt.*;
 import java.util.List;
 
 public class Agenda {
+
     private Animal animal;
     private Servico servico;
     private String data;
@@ -74,4 +74,5 @@ public class Agenda {
             System.out.println("Horário: " + agenda.getHorario());
         }
     }
+
 }

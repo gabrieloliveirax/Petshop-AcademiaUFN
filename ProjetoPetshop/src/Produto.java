@@ -1,6 +1,7 @@
 import java.util.List;
 
 abstract class Produto {
+
     private String nome;
     private String categoria;
     private Double preco;
@@ -62,4 +63,5 @@ abstract class Produto {
             System.out.println("Quantidade: "+produto.getQuantidadeEmEstoque());
         }
     }
+
 }
